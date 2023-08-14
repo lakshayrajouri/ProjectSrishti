@@ -62,7 +62,7 @@ nav h1{
 
 /*******************Footer*************/
 .footer{
-    margin: 200px auto;
+    margin: 200px auto 100px;
     display: flex;
     justify-content: space-between;
 }

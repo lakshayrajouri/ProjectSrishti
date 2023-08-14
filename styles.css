@@ -1,0 +1,88 @@
+body{
+    margin: 0 100px;
+}
+
+nav{
+    margin: 40px 50px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h1{
+    font-size: 4rem;
+}
+
+#navLink{
+    font-size: 1.3em;
+    list-style: none;
+    margin: auto 0;
+}
+#navLink li{
+    display: inline;
+    margin: 0 15px;
+}
+#navLink a{
+    text-decoration: none;
+}
+
+
+/***************workplace****************/
+.work{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/***************workplace****************/
+
+/***************news********************/
+.news{
+    margin: 100px auto 100px;
+}
+
+.news img{
+    width: 100%;
+    height: 200px;
+}
+/***************news********************/
+
+
+/***************Articles***************/
+.article h1{
+    font-size: 3rem;
+    margin: 0;
+}
+.articleDiv{
+    display: flex;
+    justify-content: space-around;
+}
+/***************Articles***************/
+
+
+/*******************Footer*************/
+.footer{
+    margin: 200px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footerLogo img{
+    margin: 0;
+    width: 20rem;
+}
+.footerLogo h1{
+    margin: 0;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+
+.footerCategory{
+    font-size: 1.4rem
+}
+.footerInfo{
+    font-size: 1.4rem
+}
+/*******************Footer*************/

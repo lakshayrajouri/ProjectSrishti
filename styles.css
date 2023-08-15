@@ -3,17 +3,17 @@ body{
 }
 
 nav{
-    margin: 40px 50px 100px;
+    margin: 40px auto 100px;
     display: flex;
     justify-content: space-between;
 }
 
 nav h1{
-    font-size: 4rem;
+    font-size: 3.2rem;
 }
 
 #navLink{
-    font-size: 1.3em;
+    font-size: 1.1em;
     list-style: none;
     margin: auto 0;
 }
@@ -30,7 +30,14 @@ nav h1{
 .work{
     margin-top: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+.work div{
+    display: flex;
+    justify-content: center;
+}
+.work img{ 
+    width: 95%;
 }
 
 
@@ -57,6 +64,13 @@ nav h1{
     display: flex;
     justify-content: space-around;
 }
+.articleDiv div{
+    display: flex;
+    justify-content: center;
+}
+.article img{
+    width: 95%;
+}
 /***************Articles***************/
 
 
@@ -79,10 +93,10 @@ nav h1{
 }
 
 
-.footerCategory{
-    font-size: 1.4rem
+.footerCategory h2{
+    font-size: 2rem;
 }
-.footerInfo{
-    font-size: 1.4rem
+.footerInfo h2{
+    font-size: 2rem;
 }
 /*******************Footer*************/
